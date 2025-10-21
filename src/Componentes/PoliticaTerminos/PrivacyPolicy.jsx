@@ -5,59 +5,45 @@ import styled from 'styled-components';
 const translations = {
     es: {
         title: "POLÍTICA DE PRIVACIDAD",
-        intro: "Este sitio personal, propiedad de Luis Emiliano Reyes Gutiérrez, funciona como un portafolio y currículum en línea. No pertenece a ninguna empresa ni recopila información con fines comerciales. Al utilizar el sitio, aceptas que los mensajes enviados mediante el formulario de contacto pueden mostrarse públicamente en la sección de 'Últimos Mensajes' como comentarios visibles.",
-        disclaimer: "Este sitio tiene fines demostrativos como portafolio personal. Las imágenes utilizadas pertenecen a sus respectivos autores. No se reclama propiedad sobre ellas.",
-        publicMessages: "Mensajes públicos",
-        publicMessagesText: "Los mensajes enviados por medio del formulario pueden mostrarse como comentarios públicos en el sitio. Esta sección sólo muestra los últimos 5 comentarios, por lo que no serán visibles de forma permanente. Si deseas comunicarte de forma privada, contáctame por WhatsApp o por llamada telefónica.",
+        intro: "Este sitio web pertenece al Colegio William Shakespeare de Jiutepec y tiene como objetivo brindar información sobre nuestra institución y servicios educativos. No recopilamos información personal con fines comerciales sin tu consentimiento. Al utilizar el sitio, aceptas que ciertos mensajes o comentarios enviados puedan mostrarse públicamente en secciones del sitio como parte de la interacción con la comunidad.",
+        disclaimer: "Este sitio tiene fines informativos y educativos. Las imágenes y contenidos utilizados pertenecen a sus respectivos autores o al colegio. No se reclama propiedad sobre material ajeno.",
+        publicMessages: "Mensajes Públicos",
+        publicMessagesText: "Los mensajes enviados mediante formularios de contacto o comentarios pueden mostrarse como públicos en el sitio. Solo se exhiben los últimos 5 registros, por lo que no permanecerán visibles permanentemente. Para contacto privado, utiliza los medios oficiales del colegio.",
         cookies: "Cookies",
-        cookiesText: "Este sitio puede utilizar cookies para mejorar la experiencia del usuario, pero no almacena información personal sensible.",
+        cookiesText: "Este sitio puede usar cookies para mejorar la experiencia del usuario, pero no almacena información personal sensible sin consentimiento.",
         thirdParty: "Enlaces a Terceros",
-        thirdPartyText: "Este sitio puede contener enlaces a sitios externos. No me hago responsable del contenido ni de las políticas de privacidad de dichos sitios.",
+        thirdPartyText: "El sitio puede contener enlaces a sitios externos. El colegio no se hace responsable del contenido ni de las políticas de privacidad de dichos sitios.",
         control: "Control de tu información",
-        controlText: "No se recopila ni almacena información personal con fines comerciales. Si tienes alguna inquietud sobre la publicación de tu mensaje, puedes solicitar su eliminación contactándome directamente.",
-        update: "Esta política puede actualizarse ocasionalmente. Te recomiendo revisarla cada cierto tiempo para estar al tanto de cualquier cambio."
+        controlText: "No se recopila información personal con fines comerciales. Si tienes alguna inquietud sobre la publicación de tus datos, puedes solicitar su eliminación contactando directamente al Colegio William Shakespeare.",
+        update: "Esta política puede actualizarse ocasionalmente. Se recomienda revisarla periódicamente para estar al tanto de cualquier cambio."
     },
     en: {
         title: "PRIVACY POLICY",
-        intro: "This personal site, owned by Luis Emiliano Reyes Gutiérrez, functions as an online portfolio and resume. It is not affiliated with any company and does not collect information for commercial purposes. By using this site, you accept that messages sent through the contact form may be publicly displayed in the 'Latest Messages' section as visible comments.",
-        disclaimer: "This site is for demonstrative purposes as a personal portfolio. The images used belong to their respective authors. No ownership is claimed over them.",
+        intro: "This website belongs to Colegio William Shakespeare in Jiutepec and aims to provide information about our institution and educational services. Personal information is not collected for commercial purposes without consent. By using this site, you agree that certain messages or comments may be publicly displayed in sections of the site as part of community interaction.",
+        disclaimer: "This site is for informational and educational purposes. Images and content belong either to their authors or the school. No ownership is claimed over external material.",
         publicMessages: "Public Messages",
-        publicMessagesText: "Messages sent through the contact form may appear as public comments on the site. This section only shows the last 5 messages, so your message will not remain permanently visible. If you wish to contact me privately, please use WhatsApp or call me directly.",
+        publicMessagesText: "Messages sent via contact forms or comments may appear publicly on the site. Only the last 5 records are displayed, so they will not remain permanently visible. For private communication, please use the school's official channels.",
         cookies: "Cookies",
-        cookiesText: "This site may use cookies to enhance user experience, but it does not store sensitive personal information.",
+        cookiesText: "This site may use cookies to enhance user experience, but does not store sensitive personal information without consent.",
         thirdParty: "Third-Party Links",
-        thirdPartyText: "This site may contain links to external websites. I am not responsible for the content or privacy policies of those websites.",
+        thirdPartyText: "The site may contain links to external websites. The school is not responsible for the content or privacy policies of those sites.",
         control: "Control of Your Information",
-        controlText: "No personal information is collected or stored for commercial use. If you have any concerns about the publication of your message, you can request its removal by contacting me directly.",
-        update: "This policy may be updated occasionally. I recommend reviewing it from time to time to stay informed of any changes."
-    },
-    de: {
-        title: "DATENSCHUTZRICHTLINIE",
-        intro: "Diese persönliche Website, im Besitz von Luis Emiliano Reyes Gutiérrez, dient als Online-Portfolio und Lebenslauf. Sie ist mit keinem Unternehmen verbunden und sammelt keine Informationen zu kommerziellen Zwecken. Durch die Nutzung der Website akzeptierst du, dass über das Kontaktformular gesendete Nachrichten öffentlich im Abschnitt 'Neueste Nachrichten' angezeigt werden können.",
-        disclaimer: "Diese Website dient Demonstrationszwecken als persönliches Portfolio. Die verwendeten Bilder gehören ihren jeweiligen Autoren. Es wird kein Eigentum an ihnen beansprucht.",
-        publicMessages: "Öffentliche Nachrichten",
-        publicMessagesText: "Nachrichten, die über das Kontaktformular gesendet werden, können als öffentliche Kommentare auf der Website erscheinen. Dieser Abschnitt zeigt nur die letzten 5 Nachrichten an, sodass deine Nachricht nicht dauerhaft sichtbar bleibt. Wenn du mich privat kontaktieren möchtest, verwende bitte WhatsApp oder rufe mich direkt an.",
-        cookies: "Cookies",
-        cookiesText: "Diese Website kann Cookies verwenden, um die Benutzererfahrung zu verbessern, speichert jedoch keine sensiblen persönlichen Informationen.",
-        thirdParty: "Links zu Dritten",
-        thirdPartyText: "Diese Website kann Links zu externen Websites enthalten. Ich bin nicht verantwortlich für den Inhalt oder die Datenschutzrichtlinien dieser Websites.",
-        control: "Kontrolle deiner Informationen",
-        controlText: "Es werden keine persönlichen Informationen zu kommerziellen Zwecken gesammelt oder gespeichert. Wenn du Bedenken bezüglich der Veröffentlichung deiner Nachricht hast, kannst du deren Entfernung direkt bei mir anfordern.",
-        update: "Diese Richtlinie kann gelegentlich aktualisiert werden. Ich empfehle dir, sie regelmäßig zu überprüfen, um über Änderungen informiert zu bleiben."
+        controlText: "No personal information is collected for commercial purposes. If you have concerns about the publication of your data, you may request its removal by contacting Colegio William Shakespeare directly.",
+        update: "This policy may be updated occasionally. It is recommended to review it periodically to stay informed of any changes."
     },
     fr: {
         title: "POLITIQUE DE CONFIDENTIALITÉ",
-        intro: "Ce site personnel, propriété de Luis Emiliano Reyes Gutiérrez, fonctionne comme un portfolio et un CV en ligne. Il n'est affilié à aucune entreprise et ne collecte pas d'informations à des fins commerciales. En utilisant ce site, vous acceptez que les messages envoyés via le formulaire de contact puissent être affichés publiquement dans la section 'Derniers messages' en tant que commentaires visibles.",
-        disclaimer: "Ce site est destiné à des fins de démonstration en tant que portfolio personnel. Les images utilisées appartiennent à leurs auteurs respectifs. Aucune propriété n'est revendiquée.",
+        intro: "Ce site web appartient au Colegio William Shakespeare de Jiutepec et a pour objectif de fournir des informations sur notre établissement et nos services éducatifs. Aucune information personnelle n'est collectée à des fins commerciales sans consentement. En utilisant ce site, vous acceptez que certains messages ou commentaires puissent être affichés publiquement dans des sections du site dans le cadre de l'interaction avec la communauté.",
+        disclaimer: "Ce site a des fins informatives et éducatives. Les images et contenus appartiennent à leurs auteurs respectifs ou à l'école. Aucune propriété n'est revendiquée sur le matériel externe.",
         publicMessages: "Messages publics",
-        publicMessagesText: "Les messages envoyés via le formulaire de contact peuvent apparaître comme commentaires publics sur le site. Cette section ne montre que les 5 derniers messages, donc votre message ne sera pas visible de manière permanente. Si vous souhaitez me contacter en privé, utilisez WhatsApp ou appelez-moi directement.",
+        publicMessagesText: "Les messages envoyés via les formulaires de contact ou les commentaires peuvent apparaître publiquement sur le site. Seuls les 5 derniers enregistrements sont affichés, ils ne resteront donc pas visibles en permanence. Pour une communication privée, veuillez utiliser les canaux officiels de l'école.",
         cookies: "Cookies",
-        cookiesText: "Ce site peut utiliser des cookies pour améliorer l'expérience utilisateur, mais ne stocke aucune information personnelle sensible.",
+        cookiesText: "Ce site peut utiliser des cookies pour améliorer l'expérience utilisateur, mais ne stocke pas d'informations personnelles sensibles sans consentement.",
         thirdParty: "Liens vers des tiers",
-        thirdPartyText: "Ce site peut contenir des liens vers des sites externes. Je ne suis pas responsable du contenu ou des politiques de confidentialité de ces sites.",
+        thirdPartyText: "Le site peut contenir des liens vers des sites externes. L'école n'est pas responsable du contenu ni des politiques de confidentialité de ces sites.",
         control: "Contrôle de vos informations",
-        controlText: "Aucune information personnelle n'est collectée ou stockée à des fins commerciales. Si vous avez des préoccupations concernant la publication de votre message, vous pouvez demander sa suppression en me contactant directement.",
-        update: "Cette politique peut être mise à jour occasionnellement. Je vous recommande de la consulter de temps en temps pour rester informé de tout changement."
+        controlText: "Aucune information personnelle n'est collectée à des fins commerciales. Si vous avez des préoccupations concernant la publication de vos données, vous pouvez demander leur suppression en contactant directement le Colegio William Shakespeare.",
+        update: "Cette politique peut être mise à jour occasionnellement. Il est recommandé de la consulter périodiquement pour rester informé de tout changement."
     }
 };
 
