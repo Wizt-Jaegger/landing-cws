@@ -1,0 +1,158 @@
+/* Importa Montserrat desde Google Fonts (para párrafos) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* Fuente local OldeEnglish */
+@font-face {
+  font-family: 'OldeEnglish';
+  src: url('../../assets/fuentes/cloister_black/CloisterBlack.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.presentacion {
+  position: relative;
+  width: 100vw;   
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  overflow: hidden;
+}
+
+.carousel-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 1s ease-in-out;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.carousel-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: inherit;
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px);
+  transform: scale(1.05);
+  z-index: -1;
+}
+
+.carousel-background::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(10deg, rgba(0, 0, 0, 0.8), rgba(19, 45, 70, 0.6));
+  pointer-events: none;
+}
+
+.presentacion-texto {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.logo-presentacion {
+  width: 200px;
+  max-width: 80%;
+  display: block;
+  margin: 0 auto 20px; 
+}
+
+.presentacion-texto h1 {
+  font-size: 2.8rem;
+  font-family: 'OldeEnglish', cursive;
+  font-weight: 700;
+  color: rgba(255, 255, 255,0.6);
+  letter-spacing: 2px;
+}
+
+.presentacion-texto p {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: rgba(255, 255, 255,0.4);
+}
+
+.carousel-indicators {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  bottom: 30px;
+  left: 14%;
+  z-index: 2;
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.indicator.active {
+  background: rgba(34, 59, 122, 1);
+  transform: scale(1.3);
+}
+
+
+@media (max-width: 1024px) {
+  .presentacion-texto h1 {
+    font-size: 2.2rem;
+  }
+  .presentacion-texto p {
+    font-size: 1rem;
+  }
+  .logo-presentacion {
+    width: 180px;
+  }
+  .carousel-indicators {
+    left: 12%;
+    bottom: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .presentacion-texto h1 {
+    font-size: 1.8rem;
+  }
+  .presentacion-texto p {
+    font-size: 0.95rem;
+  }
+  .logo-presentacion {
+    width: 150px;
+  }
+  .carousel-indicators {
+    left: 10%;
+    bottom: 20px;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .presentacion-texto h1 {
+    font-size: 1.5rem;
+  }
+  .presentacion-texto p {
+    font-size: 0.85rem;
+  }
+  .logo-presentacion {
+    width: 120px;
+    margin-bottom: 15px;
+  }
+  .carousel-indicators {
+    left: 5%;
+    bottom: 15px;
+    gap: 6px;
+  }
+}
