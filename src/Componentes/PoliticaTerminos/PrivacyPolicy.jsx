@@ -91,7 +91,7 @@ const PrivacyContainer = styled.div`
     }
 
     h2 {
-        color: #00c9c3;
+        color: #0c145c;
         margin-bottom: 15px;
         font-size: 1.8rem;
     }
@@ -103,7 +103,7 @@ const PrivacyContainer = styled.div`
     }
 
     a {
-        color: #00c9c3;
+        color: #0c145c;
         text-decoration: none;
     }
 
