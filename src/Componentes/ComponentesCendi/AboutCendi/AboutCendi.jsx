@@ -10,7 +10,11 @@ const AboutCendi = ({ setPlayState }) => {
     return (
         <div className="acercaDe">
             <div className="acercaDe-izq">
-                <img src={acercaDe_img} alt="Sobre el Preescolar" className="acercaDe-img" />
+                <img 
+                    src={acercaDe_img} 
+                    alt={language === "es" ? "Sobre Cendi" : language === "en" ? "About Cendi" : "À propos du Cendi"} 
+                    className="acercaDe-img" 
+                />
                 <img
                     src={play_icon}
                     alt={language === "es" ? "Reproducir video" : language === "en" ? "Play video" : "Lire la vidéo"}
@@ -22,44 +26,44 @@ const AboutCendi = ({ setPlayState }) => {
             <div className="acercaDe-der">
                 <h3>
                     {language === "es" 
-                        ? "ACERCA DEL PREESCOLAR" 
+                        ? "ACERCA DE CENDI" 
                         : language === "en" 
-                        ? "ABOUT PRESCHOOL" 
-                        : "À PROPOS DE LA MATERNELLE"}
+                        ? "ABOUT CENDI" 
+                        : "À PROPOS DU CENDI"}
                 </h3>
 
                 <h2>
                     {language === "es" 
-                        ? "COLEGIO WILLIAM SHAKESPEARE – PREESCOLAR" 
+                        ? "COLEGIO WILLIAM SHAKESPEARE – CENDI" 
                         : language === "en" 
-                        ? "WILLIAM SHAKESPEARE SCHOOL – PRESCHOOL" 
-                        : "COLEGIO WILLIAM SHAKESPEARE – MATERNELLE"}
+                        ? "WILLIAM SHAKESPEARE SCHOOL – CENDI" 
+                        : "COLEGIO WILLIAM SHAKESPEARE – CENDI"}
                 </h2>
 
                 <p>
                     {language === "es"
-                        ? "En nuestro preescolar del Colegio William Shakespeare, fomentamos el desarrollo integral de los niños a través de experiencias lúdicas que despiertan su curiosidad y creatividad. Promovemos habilidades cognitivas, sociales y emocionales mediante juegos, actividades psicomotrices y dinámicas de exploración que motivan el aprendizaje."
+                        ? "En nuestro CENDI del Colegio William Shakespeare, brindamos un espacio seguro y afectuoso para el cuidado y la estimulación temprana de los más pequeños. Fomentamos su desarrollo integral a través de actividades adaptadas a su edad, promoviendo sus primeros pasos en la exploración del mundo."
                         : language === "en"
-                        ? "At the William Shakespeare Preschool, we promote children's holistic development through playful experiences that spark curiosity and creativity. We foster cognitive, social, and emotional skills through games, psychomotor activities, and exploration dynamics that encourage learning."
-                        : "Dans notre école maternelle du Collège William Shakespeare, nous favorisons le développement global des enfants à travers des expériences ludiques qui éveillent leur curiosité et leur créativité. Nous encourageons les compétences cognitives, sociales et émotionnelles grâce à des jeux, des activités psychomotrices et des dynamiques d’exploration qui stimulent l’apprentissage."
+                        ? "In our CENDI at the William Shakespeare School, we provide a safe and affectionate space for the care and early stimulation of the little ones. We foster their holistic development through age-appropriate activities, promoting their first steps in exploring the world."
+                        : "Dans notre CENDI du Collège William Shakespeare, nous offrons un espace sûr et affectueux pour la garde et la stimulation précoce des tout-petits. Nous favorisons leur développement global à travers des activités adaptées à leur âge, en encourageant leurs premiers pas dans l'exploration du monde."
                     }
                 </p>
 
                 <p>
                     {language === "es"
-                        ? "Implementamos un programa progresivo de lectoescritura y el inicio del aprendizaje del inglés, integrando el idioma de manera natural en las actividades diarias. Todo esto en un ambiente seguro, afectivo y estimulante, donde cada niño se siente valorado y acompañado en su crecimiento."
+                        ? "Nos enfocamos en el desarrollo de sus habilidades motrices, cognitivas y socioemocionales mediante el juego guiado, la música y el arte. Todo esto en un ambiente cálido y protector, donde cada niño se siente amado y acompañado en sus primeros aprendizajes."
                         : language === "en"
-                        ? "We implement a progressive literacy program and the introduction to English learning, integrating the language naturally into daily activities. All within a safe, caring, and stimulating environment where each child feels valued and supported in their growth."
-                        : "Nous mettons en place un programme progressif d’alphabétisation et l’initiation à l’apprentissage de l’anglais, en intégrant la langue naturellement dans les activités quotidiennes. Tout cela dans un environnement sûr, affectueux et stimulant, où chaque enfant se sent valorisé et accompagné dans sa croissance."
+                        ? "We focus on the development of their motor, cognitive, and socio-emotional skills through guided play, music, and art. All of this in a warm and protective environment, where each child feels loved and supported in their early learning."
+                        : "Nous nous concentrons sur le développement de leurs compétences motrices, cognitives et socio-émotionnelles par le jeu guidé, la musique et l'art. Tout cela dans un environnement chaleureux et protecteur, où chaque enfant se sent aimé et accompagné dans ses premiers apprentissages."
                     }
                 </p>
 
                 <p>
                     {language === "es"
-                        ? <>Nuestro lema: <strong>"Jugamos, exploramos y aprendemos con curiosidad y creatividad."</strong></>
+                        ? <>Nuestro lema: <strong>"Cuidado, amor y estimulación en los primeros pasos de tu pequeño."</strong></>
                         : language === "en"
-                        ? <>Our motto: <strong>"We play, explore, and learn with curiosity and creativity."</strong></>
-                        : <>Notre devise : <strong>"Nous jouons, explorons et apprenons avec curiosité et créativité."</strong></>
+                        ? <>Our motto: <strong>"Care, love, and stimulation in your little one's first steps."</strong></>
+                        : <>Notre devise : <strong>"Soin, amour et stimulation dans les premiers pas de votre tout-petit."</strong></>
                     }
                 </p>
             </div>

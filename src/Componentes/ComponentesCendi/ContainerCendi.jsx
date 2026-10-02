@@ -1,13 +1,13 @@
-import React, { use, useState } from "react";
+import React from "react";
 import NavbarWebApp from "../Navbar/NavbarSecundario";
-import PresentacionWebApp from "../Presentacion/PresentacionPreescolar";
+import PresentacionWebApp from "../Presentacion/PresentacionCendi"; // Updated to Cendi
 import Footer from "../Footer/Footer";
 import { useLanguage } from "../../LanguageContext";
 import Banner from "../Banner/Banner";
 import Titulo from "../Titulo/Titulo";
 import Maps from "../Maps/Maps";
 import Portafolio from "../Portafolio/Portafolio";
-import About from "./AboutCendi/AboutPreescolar";
+import About from "./AboutCendi/AboutCendi"; // Updated to Cendi
 import fondo1 from "../../assets/lengua.jpg";
 
 const ContainerApp = () => {
@@ -34,7 +34,8 @@ const ContainerApp = () => {
                     titulo={language === "es" ? "Formación integral dentro y fuera del aula" : language === "en" ? "Comprehensive learning inside and outside the classroom" : language === "de" ? "Ganzheitliches Lernen innerhalb und außerhalb des Klassenzimmers" : "Un apprentissage complet à l'intérieur et à l'extérieur de la classe"}
                 />
             </div>
-            <Portafolio tag="preescolar" />
+            {/* Updated the tag to cendi */}
+            <Portafolio tag="cendi" /> 
             <Maps/>
             <Footer />
         </div>

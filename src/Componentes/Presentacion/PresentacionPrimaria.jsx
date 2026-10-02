@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import './Presentacion.css';
 import { useLanguage } from "../../LanguageContext";
 
-import logoES from '../../assets/habilidad-2.png';
-import logoEN from '../../assets/EN-habilidad-2.png';
-import logoFR from '../../assets/FR-habilidad-2.png';
+import logoES from '../../assets/habilidad-3.png';
+import logoEN from '../../assets/EN-habilidad-3.png';
+import logoFR from '../../assets/FR-habilidad-3.png';
 
 import primaria1 from '../../assets/presentacion-primaria-1.png';
 import primaria2 from '../../assets/presentacion2.png';

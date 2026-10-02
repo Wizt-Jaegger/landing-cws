@@ -4,22 +4,25 @@ import { Link } from 'react-router-dom';
 import { useLanguage } from "../../LanguageContext";
 
 // Imágenes por defecto (Español)
-import habilidad1 from '../../assets/habilidad-1.png'; // Preescolar
-import habilidad2 from '../../assets/habilidad-2.png'; // Primaria
-import habilidad3 from '../../assets/habilidad-3.png'; // Secundaria
-import habilidad4 from '../../assets/habilidad-4.png'; // Preparatoria
+import habilidad1 from '../../assets/habilidad-1.png'; // Cendi
+import habilidad2 from '../../assets/habilidad-2.png'; // Preescolar
+import habilidad3 from '../../assets/habilidad-3.png'; // Primaria
+import habilidad4 from '../../assets/habilidad-4.png'; // Secundaria
+import habilidad5 from '../../assets/habilidad-5.png'; // Preparatoria
 
 // Imágenes para inglés
 import habilidad1EN from '../../assets/EN-habilidad-1.png';
 import habilidad2EN from '../../assets/EN-habilidad-2.png';
 import habilidad3EN from '../../assets/EN-habilidad-3.png';
 import habilidad4EN from '../../assets/EN-habilidad-4.png';
+import habilidad5EN from '../../assets/EN-habilidad-5.png';
 
 // Imágenes para francés
 import habilidad1FR from '../../assets/FR-habilidad-1.png';
 import habilidad2FR from '../../assets/FR-habilidad-2.png';
 import habilidad3FR from '../../assets/FR-habilidad-3.png';
 import habilidad4FR from '../../assets/FR-habilidad-4.png';
+import habilidad5FR from '../../assets/FR-habilidad-5.png';
 
 import flechaBlanca from '../../assets/dark-arrow.svg';
 
@@ -44,6 +47,11 @@ const Habilidades = () => {
             fr: "Dans notre établissement, nous considérons essentiel d’accompagner les élèves à chaque étape de leur formation. Dès les premières années, nous favorisons un développement intégral fondé sur l’harmonie, l’intégrité et le respect, en promouvant des valeurs, des connaissances et des compétences qui leur permettent de devenir des personnes responsables et prêtes à relever les défis de l’avenir."
         },
         descriptions: {
+            cendi: {
+                es: "CENDI es el espacio ideal para el cuidado y estimulación temprana, brindando un entorno seguro y afectivo para los más pequeños.",
+                en: "CENDI is the ideal space for early childhood care and stimulation, providing a safe and affectionate environment for the little ones.",
+                fr: "CENDI est l'espace idéal pour la garde et l'éveil de la petite enfance, offrant un environnement sûr et affectueux pour les tout-petits."
+            },
             preescolar: {
                 es: "Nivel preescolar donde los niños desarrollan habilidades sociales, cognitivas y motrices mediante el juego y la exploración.",
                 en: "Kindergarten level where children develop social, cognitive, and motor skills through play and exploration.",
@@ -68,12 +76,13 @@ const Habilidades = () => {
     };
 
     const imageSets = {
-        es: [habilidad1, habilidad2, habilidad3, habilidad4],
-        en: [habilidad1EN, habilidad2EN, habilidad3EN, habilidad4EN],
-        fr: [habilidad1FR, habilidad2FR, habilidad3FR, habilidad4FR]
+        es: [habilidad1, habilidad2, habilidad3, habilidad4, habilidad5],
+        en: [habilidad1EN, habilidad2EN, habilidad3EN, habilidad4EN, habilidad5EN],
+        fr: [habilidad1FR, habilidad2FR, habilidad3FR, habilidad4FR, habilidad5FR]
     };
 
     const items = [
+        { key: "cendi", to: "/cendi", alt: "Cendi" },
         { key: "preescolar", to: "/preescolar", alt: "Preescolar" },
         { key: "primaria", to: "/primaria", alt: "Primaria" },
         { key: "secundaria", to: "/secundaria", alt: "Secundaria" },

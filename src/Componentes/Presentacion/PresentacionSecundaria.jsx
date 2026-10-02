@@ -3,9 +3,9 @@ import './Presentacion.css';
 import { useLanguage } from "../../LanguageContext";
 
 // Logos por idioma
-import logoES from '../../assets/habilidad-3.png';
-import logoEN from '../../assets/EN-habilidad-3.png';
-import logoFR from '../../assets/FR-habilidad-3.png';
+import logoES from '../../assets/habilidad-4.png';
+import logoEN from '../../assets/EN-habilidad-4.png';
+import logoFR from '../../assets/FR-habilidad-4.png';
 
 // Imágenes del carrusel
 import secundaria1 from '../../assets/presentacion-secundaria-1.png';

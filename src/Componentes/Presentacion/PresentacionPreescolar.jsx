@@ -3,9 +3,9 @@ import './Presentacion.css';
 import { useLanguage } from "../../LanguageContext";
 
 // Logo por idioma
-import logoES from '../../assets/habilidad-1.png';
-import logoEN from '../../assets/EN-habilidad-1.png';
-import logoFR from '../../assets/FR-habilidad-1.png';
+import logoES from '../../assets/habilidad-2.png';
+import logoEN from '../../assets/EN-habilidad-2.png';
+import logoFR from '../../assets/FR-habilidad-2.png';
 
 // Imágenes del carrusel (no cambian por idioma)
 import presentacion1 from '../../assets/presentacion-preescolar-1.png';
