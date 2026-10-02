@@ -86,8 +86,7 @@ const Contacto = () => {
                 <ul>
                     <li><img src={mail_icon} alt="mail" />colegio.wshakespearejiutepec@gmail.com</li>
                     <li><img src={phone_icon} alt="phone" />+52 777 319 0298</li>
-                    <li><img src={phone_icon} alt="phone" />+52 777 200 0630</li>
-                    <li><img src={phone_icon} alt="phone" />+52 777 413 3332</li>
+                    <li><img src={phone_icon} alt="phone" />+52 777 526-24-66</li>
                     <li><img src={location_icon} alt="location" />{t.location}</li>
                 </ul>
             </div>
